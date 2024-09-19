@@ -150,7 +150,32 @@ void preOrder(TreeNode *node) {
     }
 
     free(stack);
-    printf("NULL");
+    printf("NULL \n");
+}
+
+void midOrder(TreeNode *node) {
+
+    Stack *stack = (Stack *)malloc(sizeof(Stack));
+    stack ->head = NULL;
+    stack ->tail = NULL;
+
+
+    // 循环入栈
+    while(node != NULL || stack ->head != NULL) {
+
+        if(node != NULL) {
+            pushStack(&stack, node);
+            node = node ->left;
+        }
+        else {
+            TreeNode *poped = popStack(&stack);
+            printf("%c -> ", poped ->data);
+            node = poped ->right;
+        }
+    }
+
+    free(stack);
+    printf("NULL \n");
 }
 
 
@@ -162,6 +187,8 @@ int main() {
     initTree(&root, "ABC##D##EF##G##", &index);
 
     preOrder(root);
+
+    midOrder(root);
 
     free(root);
 
