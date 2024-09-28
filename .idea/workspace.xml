@@ -123,7 +123,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.algorithm">
+  <component name="RunManager" selected="C/C++ File.main.c">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -146,12 +146,6 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queue.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithm" TARGET_NAME="Queue.c" CONFIG_NAME="Queue.c">
-      <option name="sourceFile" value="0007-队列/Queue.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Stack.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithm" TARGET_NAME="Stack.c" CONFIG_NAME="Stack.c">
       <option name="sourceFile" value="0006-栈/Stack.c" />
       <method v="2">
@@ -164,21 +158,27 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algorithm" TARGET_NAME="main.c" CONFIG_NAME="main.c">
+      <option name="sourceFile" value="main.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="C/C++ File.main.c" />
       <item itemvalue="C/C++ File.Tree.c" />
       <item itemvalue="C/C++ File.ForceMatch.c" />
       <item itemvalue="C/C++ File.LoopQueue.c" />
-      <item itemvalue="C/C++ File.Queue.c" />
       <item itemvalue="C/C++ File.Stack.c" />
       <item itemvalue="CMake Application.algorithm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.main.c" />
         <item itemvalue="C/C++ File.Tree.c" />
         <item itemvalue="C/C++ File.ForceMatch.c" />
         <item itemvalue="C/C++ File.LoopQueue.c" />
         <item itemvalue="C/C++ File.Stack.c" />
-        <item itemvalue="C/C++ File.Queue.c" />
       </list>
     </recent_temporary>
   </component>
