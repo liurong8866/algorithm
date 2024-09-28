@@ -37,18 +37,18 @@ void enqueue(QueueNode *head, TreeNode *data) {
 }
 
 TreeNode * dequeue(QueueNode *head) {
-    QueueNode *result = head->next;
-    head->next = result->next;
-    return result -> data;
+    TreeNode *result = head->data;
+    head = head->next;
+    return result;
 }
 
 void process(TreeNode *node) {
-    printf("%c -> ", node->data);
+    printf("%d\n", node->data);
 }
 
 void createTree(TreeNode **node) {
     char s;
-    scanf("%c \n", &s);
+    scanf("%c", &s);
 
     if(s == '#') {
         node = NULL;
@@ -65,8 +65,7 @@ void preOrder(TreeNode *node) {
     QueueNode *queue = createQueue();
     enqueue(queue, node);
 
-    while(queue->next != NULL) {
-
+    while(queue->data != NULL) {
         TreeNode* q = dequeue(queue);
 
         process(q);
@@ -81,10 +80,11 @@ void preOrder(TreeNode *node) {
     }
 }
 
+
 int main() {
 
     TreeNode *root;
-    createTree(&root);
+    createTree(root);
 
     preOrder(root);
 

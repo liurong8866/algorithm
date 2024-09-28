@@ -1,10 +1,4 @@
 /home/jackycheung/Program/Applications/CLion-2024.2.1/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /home/jackycheung/Workspace/CorkSpace/algorithm -B /home/jackycheung/Workspace/CorkSpace/algorithm/cmake-build-debug
--- The C compiler identification is GNU 13.2.1
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Configuring done (0.7s)
+-- Configuring done (0.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/jackycheung/Workspace/CorkSpace/algorithm/cmake-build-debug
